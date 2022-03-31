@@ -4,6 +4,14 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageVersion>0.2</PackageVersion>
+        <Title>Transport for London</Title>
+        <Authors>Columbus Utrigas</Authors>
+        <Description>Types for TFL Unified API</Description>
+        <PackageIconUrl>https://upload.wikimedia.org/wikipedia/commons/3/3e/TfL_roundel_%28no_text%29.svg</PackageIconUrl>
+        <RepositoryUrl>https://github.com/ColumbusUtrigas/TFL</RepositoryUrl>
+        <Company />
     </PropertyGroup>
 
 </Project>
