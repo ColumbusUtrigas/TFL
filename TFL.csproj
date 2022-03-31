@@ -9,12 +9,15 @@
         <Title>Transport for London</Title>
         <Authors>Columbus Utrigas</Authors>
         <Description>Types for TFL Unified API</Description>
-        <PackageIconUrl>https://upload.wikimedia.org/wikipedia/commons/3/3e/TfL_roundel_%28no_text%29.svg</PackageIconUrl>
         <RepositoryUrl>https://github.com/ColumbusUtrigas/TFL</RepositoryUrl>
         <Company />
-        <PackageLicenseUrl>https://github.com/ColumbusUtrigas/TFL/blob/main/LICENSE</PackageLicenseUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageIcon>icon.png</PackageIcon>
         <PackageTags>Metro, Railway, London, TFL, Transport For London, Underground, Overground, DLR</PackageTags>
         <PackageReleaseNotes>Initial release</PackageReleaseNotes>
     </PropertyGroup>
 
+    <ItemGroup>
+        <None Include="icon.png" Pack="true" PackagePath=""/>
+    </ItemGroup>
 </Project>
